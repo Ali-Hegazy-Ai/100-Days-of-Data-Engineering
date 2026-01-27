@@ -29,3 +29,12 @@ The contents include:
 - Observations and study reflections
 
 This repository evolves over the 100 days from foundational topics toward more complex pipeline and deployment work. It is not intended to be a polished tutorial but rather a structured record of real learning and practice. Feel free to read, clone, reuse, or adapt material for your own learning.
+
+
+## How to use this repository
+
+1. Open the folder that matches the track you are working on.  
+2. Add a daily note for the current date. Include short summaries, key commands, and sample queries or code.  
+3. Stage and commit your changes with Git and push to GitHub to preserve a progress history.  
+4. Update the progress tracker when you finish a course module or a significant exercise.  
+5. Place reusable code or notebooks in the appropriate `projects/` subfolder.
