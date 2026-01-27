@@ -94,9 +94,9 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 
 ### Associate Data Engineer in SQL
 
-- [ ] Understanding Data Engineering
-- [ ] Introduction to SQL
-- [ ] Intermediate SQL
+- [x] Understanding Data Engineering
+- [x] Introduction to SQL
+- [x] Intermediate SQL
 - [ ] Joining Data in SQL
 - [ ] Database Design
 - [ ] Data Warehousing Concepts
