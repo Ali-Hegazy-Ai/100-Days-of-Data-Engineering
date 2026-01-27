@@ -33,7 +33,7 @@ They deliver data in the right form, correct data to right people as efficiently
 - Remove corrupted data
 - Develop, construct, test, and maintain data architectures
 
-Big data becomes the norm ==> more data engineers needed
+As big data becomes the norm, more data engineers are needed.
 
 ### The 5 V's of Big Data
 1. **Volume** - how much
