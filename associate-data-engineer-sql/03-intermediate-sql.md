@@ -1,36 +1,33 @@
-Course roadmap
-quering databases 
-count and view records
-understand querty execture adn styel
-filtering aggeraute fucntions
-sorting and grouping
-our data base filsm
-"COUNT()"
+# Intermediate SQL
 
-	counts number of records in a field
+## Course Roadmap
+- Querying databases
+- Count and view records
+- Understand query execution and style
+- Filtering and aggregate functions
+- Sorting and grouping
 
+## COUNT()
+Counts the number of records in a field.
 
-order of exectuion sql is not process in its wirttein order
-FROM first then select then limit 
-debuging sql code
-perhaps you mean 
+## Order of Execution
+SQL is not processed in its written order:
+1. FROM first
+2. Then SELECT
+3. Then LIMIT
 
-sql formating 
-not required
-best practices
-capitilizae keywords and need lines
+## Debugging SQL Code
+Perhaps you mean...
 
-filtering numbers
-where 
-
-<> not equal to 
-
- 
-# Ultra-Detailed Concise Notes: Intermediate SQL – Filtering Data  
+## SQL Formatting
+- Not required but recommended
+- Best practices: capitalize keywords and use new lines
 
 ---
 
-## 1. **WHERE Clause – Basics**
+# Filtering Data
+
+## 1. WHERE Clause – Basics
 - **Purpose:** Filters rows based on a condition.
 - **Syntax:** `WHERE condition`
 - **Example:**  
@@ -40,7 +37,7 @@ where
 
 ---
 
-## 2. **Comparison Operators**
+## 2. Comparison Operators
 | Operator | Meaning | Example |
 |----------|---------|---------|
 | `>` | Greater than | `WHERE release_year > 1960` |
@@ -52,7 +49,7 @@ where
 
 ---
 
-## 3. **Filtering Strings**
+## 3. Filtering Strings
 - **Strings must be in single quotes:** `'Japan'`
 - **Case-sensitive:** `'Japan'` ≠ `'japan'`
 - **Example:**  
@@ -62,7 +59,7 @@ where
 
 ---
 
-## 4. **Order of Execution**
+## 4. Order of Execution
 1. **FROM** – Identify the table  
 2. **WHERE** – Filter rows  
 3. **SELECT** – Choose columns  
@@ -74,8 +71,9 @@ where
 
 ---
 
-## 5. **Multiple Criteria**
-### **OR Operator**
+## 5. Multiple Criteria
+
+### OR Operator
 - At least one condition must be true.
 - **Correct:**  
   ```sql
@@ -86,7 +84,7 @@ where
   WHERE release_year = 1994 OR 2000  -- Missing condition
   ```
 
-### **AND Operator**
+### AND Operator
 - All conditions must be true.
 - **Correct:**  
   ```sql
@@ -97,14 +95,14 @@ where
   WHERE release_year > 1994 AND < 2000  -- Incomplete condition
   ```
 
-### **Combining AND/OR**
+### Combining AND/OR
 - Use parentheses to group logic:
   ```sql
   WHERE (release_year = 1994 OR release_year = 1995) 
     AND (certification = 'PG' OR certification = 'R')
   ```
 
-### **BETWEEN Operator**
+### BETWEEN Operator
 - Inclusive range check.
 - **Equivalent to:** `release_year >= 1994 AND release_year <= 2000`
 - **Example:**  
@@ -114,8 +112,9 @@ where
 
 ---
 
-## 6. **Filtering Text with Patterns**
-### **LIKE & NOT LIKE**
+## 6. Filtering Text with Patterns
+
+### LIKE & NOT LIKE
 - `%` – Matches zero, one, or many characters.
 - `_` – Matches exactly one character.
 - **Examples:**  
@@ -125,7 +124,7 @@ where
   WHERE name NOT LIKE 'A.%' -- Excludes names starting with "A."
   ```
 
-1
+### IN Operator
 - Checks if a value matches any in a list.
 - **Examples:**  
   ```sql
@@ -135,7 +134,7 @@ where
 
 ---
 
-## 7. **NULL Values**
+## 7. NULL Values
 - **NULL** = missing/unknown value.
 - **Check for NULL:** `IS NULL`
 - **Exclude NULL:** `IS NOT NULL`
@@ -145,7 +144,7 @@ where
   WHERE birthdate IS NOT NULL
   ```
 
-### **COUNT() with NULL**
+### COUNT() with NULL
 - `COUNT(column)` ignores NULLs.
 - `COUNT(*)` counts all rows, including NULLs.
 - **Example:**  
@@ -156,7 +155,7 @@ where
 
 ---
 
-## 8. **Key Takeaways**
+## 8. Key Takeaways
 - Use **single quotes** for strings.
 - **Parentheses** control logical precedence.
 - **BETWEEN** is inclusive.
@@ -166,16 +165,9 @@ where
 
 ---
 
-**Next Steps:** Practice filtering with numeric, text, and NULL data using AND, OR, BETWEEN, LIKE, and IN.
+# Summarizing Data
 
-
-SUmmiraizng data
-
-# Ultra-Detailed Concise Notes: Intermediate SQL – Summarizing Data  
-
----
-
-## 1. **Aggregate Functions**
+## 1. Aggregate Functions
 - **Purpose:** Return a single value from a column or set of rows.
 - **Common Functions:**
   - `AVG()` – Average of numeric values
@@ -193,7 +185,7 @@ SUmmiraizng data
 
 ---
 
-## 2. **Aggregate Functions with WHERE**
+## 2. Aggregate Functions with WHERE
 - **Filter before aggregating.**
 - **Example:**
   ```sql
@@ -210,7 +202,7 @@ SUmmiraizng data
 
 ---
 
-## 3. **ROUND() Function**
+## 3. ROUND() Function
 - **Rounds a number to specified decimal places.**
 - **Syntax:** `ROUND(number, decimal_places)`
 - **If decimal_places is:**
@@ -227,7 +219,7 @@ SUmmiraizng data
 
 ---
 
-## 4. **Arithmetic Operators**
+## 4. Arithmetic Operators
 - **Basic Operators:** `+`, `-`, `*`, `/`
 - **Note:** Integer division truncates. Use decimals for precise division.
   ```sql
@@ -241,7 +233,7 @@ SUmmiraizng data
 
 ---
 
-## 5. **Aliasing**
+## 5. Aliasing
 - **Purpose:** Rename columns in output for clarity.
 - **Placement:** Defined in `SELECT` clause.
 - **Syntax:** `column_name AS alias_name`
@@ -253,7 +245,7 @@ SUmmiraizng data
 
 ---
 
-## 6. **Order of Execution with Aliases**
+## 6. Order of Execution with Aliases
 1. **FROM** – Identify table(s)
 2. **WHERE** – Filter rows
 3. **SELECT** – Choose/calculate columns *(aliases defined here)*
@@ -270,7 +262,7 @@ SUmmiraizng data
 
 ---
 
-## 7. **Aggregate Functions vs. Arithmetic**
+## 7. Aggregate Functions vs. Arithmetic
 | **Aggregate Functions**          | **Arithmetic Operations**          |
 |----------------------------------|------------------------------------|
 | Operate across multiple rows     | Operate within a single row        |
@@ -280,22 +272,19 @@ SUmmiraizng data
 
 ---
 
-## 8. **Key Takeaways**
+## 8. Key Takeaways
 - `MIN()`/`MAX()` work on numbers, text, and dates.
 - `COUNT(column)` excludes NULLs; `COUNT(*)` includes them.
 - Filter with `WHERE` **before** aggregating.
 - Use `ROUND()` to format numeric results.
-- Aliases improve readability but can’t be used in `WHERE`.
+- Aliases improve readability but can't be used in `WHERE`.
 - Integer division truncates; use decimals for accuracy.
 
 ---
 
-### **Chapter 4: Sorting & Grouping Data**  
-**Instructor:** Jasmin Ludolf (DataCamp)
+# Sorting & Grouping Data
 
----
-
-#### **1. Sorting Results (`ORDER BY`)**
+## 1. Sorting Results (ORDER BY)
 - **Purpose:** Arrange query results in ascending (ASC) or descending (DESC) order.
 - **Basic syntax:**  
   ```sql
@@ -318,7 +307,7 @@ SUmmiraizng data
 
 ---
 
-#### **2. Grouping Data (`GROUP BY`)**
+## 2. Grouping Data (GROUP BY)
 - **Purpose:** Summarize data by groups (e.g., count, average).
 - **Basic syntax:**  
   ```sql
@@ -342,7 +331,7 @@ SUmmiraizng data
 
 ---
 
-#### **3. Sorting Grouped Results**
+## 3. Sorting Grouped Results
 - Combine `GROUP BY` with `ORDER BY`:
   ```sql
   SELECT certification, COUNT(title) AS title_count
@@ -353,7 +342,7 @@ SUmmiraizng data
 
 ---
 
-#### **4. Filtering Grouped Data (`HAVING`)**
+## 4. Filtering Grouped Data (HAVING)
 - **Purpose:** Filter groups (after `GROUP BY`), unlike `WHERE` which filters rows before grouping.
 - **Syntax:**  
   ```sql
@@ -375,12 +364,12 @@ SUmmiraizng data
 
 ---
 
-#### **5. Order of Execution (Key Sequence)**
+## 5. Order of Execution (Key Sequence)
 1. `FROM` → 2. `WHERE` → 3. `GROUP BY` → 4. `HAVING` → 5. `SELECT` → 6. `ORDER BY` → 7. `LIMIT`
 
 ---
 
-#### **6. Skills Covered**
+## 6. Skills Covered
 - Sorting with `ORDER BY`
 - Grouping with `GROUP BY`
 - Filtering groups with `HAVING`
@@ -389,27 +378,16 @@ SUmmiraizng data
 
 ---
 
-#### **7. What’s Next?**
-- Joining tables (SQL Joins course)
-- DataCamp projects & practice
-- Workspace exercises
+# INNER JOIN
 
----
-
-**Quick Tip:** Always check for `NULL`s when sorting, and remember `HAVING` is for groups, `WHERE` is for rows.
-
-Inner join
-
-# Comprehensive Guide to SQL INNER JOINs
-
-## 1. **What is INNER JOIN?**
+## 1. What is INNER JOIN?
 INNER JOIN returns only the rows that have matching values in **both** tables.
 
-### **Key Principle:**
+### Key Principle:
 - Looks for records in both tables that match on a specified field
 - Non-matching records from either table are **excluded**
 
-### **Visual Example:**
+### Visual Example:
 ```
 Table A (left)        Table B (right)
 id | name            id | city
@@ -425,7 +403,7 @@ id | name    | city
 
 ---
 
-## 2. **Basic INNER JOIN Syntax**
+## 2. Basic INNER JOIN Syntax
 
 ```sql
 SELECT columns
@@ -434,7 +412,7 @@ INNER JOIN table2
 ON table1.common_field = table2.common_field;
 ```
 
-### **Example from Leadership Database:**
+### Example:
 ```sql
 SELECT prime_ministers.country, 
        prime_ministers.continent,
@@ -445,17 +423,9 @@ INNER JOIN prime_ministers
 ON presidents.country = prime_ministers.country;
 ```
 
-**Result:**
-| country | continent | prime_minister | president |
-|---------|-----------|----------------|-----------|
-| Egypt | Africa | Mostafa Madbouly | Abdel Fattah el-Sisi |
-| Portugal | Europe | Luís Montenegro | Marcelo Rebelo de Sousa |
-| Pakistan | Asia | Shehbaz Sharif | Asif Ali Zardari |
-| India | Asia | Narendra Modi | Droupadi Murmu |
-
 ---
 
-## 3. **Table Aliases - Making Queries Cleaner**
+## 3. Table Aliases - Making Queries Cleaner
 
 ```sql
 SELECT p2.country, 
@@ -474,7 +444,7 @@ ON p1.country = p2.country;
 
 ---
 
-## 4. **USING Clause - Simplified Syntax**
+## 4. USING Clause - Simplified Syntax
 
 When column names are **identical** in both tables:
 
@@ -489,9 +459,9 @@ USING(country);  -- Instead of ON p1.country = p2.country
 
 ---
 
-## 5. **Database Relationships & JOIN Applications**
+## 5. Database Relationships & JOIN Applications
 
-### **A. One-to-Many Relationship**
+### A. One-to-Many Relationship
 **Example:** Authors to Books
 - One author writes many books
 - One book has one author
@@ -503,9 +473,7 @@ INNER JOIN books
 ON authors.author_id = books.author_id;
 ```
 
-**Real-life:** Customer → Orders, Department → Employees
-
-### **B. One-to-One Relationship**
+### B. One-to-One Relationship
 **Example:** Individuals to Fingerprints
 - One person has one fingerprint record
 - One fingerprint record belongs to one person
@@ -517,9 +485,7 @@ INNER JOIN fingerprints
 ON individuals.passport_no = fingerprints.passport_no;
 ```
 
-**Real-life:** Users → UserProfiles, Employees → EmployeeDetails
-
-### **C. Many-to-Many Relationship**
+### C. Many-to-Many Relationship
 **Example:** Students ↔ Courses
 - One student takes many courses
 - One course has many students
@@ -532,11 +498,9 @@ INNER JOIN student_courses ON students.id = student_courses.student_id
 INNER JOIN courses ON student_courses.course_id = courses.id;
 ```
 
-**Real-life:** Products ↔ Orders, Movies ↔ Actors
-
 ---
 
-## 6. **Chaining Multiple JOINs**
+## 6. Chaining Multiple JOINs
 
 ```sql
 SELECT p1.country, p1.continent,
@@ -546,15 +510,9 @@ INNER JOIN presidents as p2 USING(country)
 INNER JOIN prime_minister_terms as p3 USING(prime_minister);
 ```
 
-**Result:**
-| country | continent | president | prime_minister | pm_start |
-|---------|-----------|-----------|----------------|----------|
-| Egypt | Africa | Abdel Fattah el-Sisi | Mostafa Madbouly | 2018 |
-| Portugal | Europe | Marcelo Rebelo de Sousa | Luís Montenegro | 2024 |
-
 ---
 
-## 7. **JOINing on Multiple Keys**
+## 7. JOINing on Multiple Keys
 
 For more precise matching:
 
@@ -566,42 +524,9 @@ ON orders.order_id = shipments.order_id
 AND orders.order_date = shipments.ship_date;
 ```
 
-**Real Application:** When a single field isn't unique enough
-- Order tracking with date validation
-- Inventory management with batch numbers and dates
-
 ---
 
-## 8. **Common Real-World Applications**
-
-### **E-commerce:**
-```sql
-SELECT customers.name, orders.order_date, products.product_name
-FROM customers
-INNER JOIN orders ON customers.id = orders.customer_id
-INNER JOIN order_items ON orders.id = order_items.order_id
-INNER JOIN products ON order_items.product_id = products.id;
-```
-
-### **Healthcare:**
-```sql
-SELECT patients.name, doctors.specialization, appointments.date
-FROM patients
-INNER JOIN appointments ON patients.id = appointments.patient_id
-INNER JOIN doctors ON appointments.doctor_id = doctors.id;
-```
-
-### **Banking:**
-```sql
-SELECT account_holders.name, accounts.balance, transactions.amount
-FROM account_holders
-INNER JOIN accounts ON account_holders.id = accounts.holder_id
-INNER JOIN transactions ON accounts.id = transactions.account_id;
-```
-
----
-
-## 9. **Key Takeaways**
+## 8. Key Takeaways
 
 1. **INNER JOIN = Intersection** of two tables
 2. **Always specify** the matching condition with `ON` or `USING`
@@ -612,14 +537,4 @@ INNER JOIN transactions ON accounts.id = transactions.account_id;
 
 ---
 
-## 10. **Practice Tips**
-
-1. Start with small tables to verify results
-2. Always check what columns need table prefixes
-3. Use `SELECT *` initially, then specify columns
-4. Test joins step-by-step when chaining multiple tables
-5. Remember: INNER JOIN excludes non-matching rows from **both** tables
-
----
-
-**Remember:** INNER JOIN is your primary tool for combining related data. Master it, and you've mastered 80% of data retrieval in relational databases!
+*Notes compiled from DataCamp's Intermediate SQL and Joining Data courses*
