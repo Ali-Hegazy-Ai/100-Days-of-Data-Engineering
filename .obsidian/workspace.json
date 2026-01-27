@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5004348754883
   },
   "right": {
     "id": "e9f5d93da90e5926",
@@ -187,12 +187,12 @@
   },
   "active": "19e7537da4d6552a",
   "lastOpenFiles": [
-    "associate-data-engineer-sql/02-introduction-to-sql.md",
     "Apache Airflow.md",
     "associate-data-engineer-sql/01-understanding-data-engineering.md",
-    "Pasted image 20260128013212.png",
-    "Pasted image 20260128005046.png",
-    "Pasted image 20260128004622.png",
+    "associate-data-engineer-sql/02-introduction-to-sql.md",
+    "associate-data-engineer-sql/Pasted image 20260128013212.png",
+    "associate-data-engineer-sql/Pasted image 20260128005046.png",
+    "associate-data-engineer-sql/Pasted image 20260128004622.png",
     "associate-data-engineer-sql/03-intermediate-sql.md",
     "associate-data-engineer-sql/04-joining-data.md",
     "associate-data-engineer-sql/05-database-design.md",
