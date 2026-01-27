@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b456a665ddaa53b4",
+        "id": "31974395e1ab20f7",
         "type": "tabs",
         "children": [
           {
-            "id": "519d7ce192ab700e",
+            "id": "19e7537da4d6552a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "associate-data-engineer-sql/01-understanding-data-engineering.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01-understanding-data-engineering"
             }
           }
         ]
@@ -181,15 +185,48 @@
       "bases:Create new base": false
     }
   },
-  "active": "519d7ce192ab700e",
+  "active": "19e7537da4d6552a",
   "lastOpenFiles": [
-    "Intro to Sql.md",
-    "Intermediate SQL.md",
-    "Welcome.md",
-    "Untitled.md",
-    "Understanding data engineering/Understanding data engineering.md",
+    "associate-data-engineer-sql/02-introduction-to-sql.md",
+    "Apache Airflow.md",
+    "associate-data-engineer-sql/01-understanding-data-engineering.md",
+    "Pasted image 20260128013212.png",
+    "Pasted image 20260128005046.png",
+    "Pasted image 20260128004622.png",
+    "associate-data-engineer-sql/03-intermediate-sql.md",
+    "associate-data-engineer-sql/04-joining-data.md",
+    "associate-data-engineer-sql/05-database-design.md",
+    "data-engineer-python/03-etl-workflows.md",
+    "progress_tracker.md",
+    "associate-data-engineer-sql/notes/README.md",
+    "resources/references.md",
+    "resources/links.md",
+    "resources",
+    "projects/warehouse-model-project/README.md",
+    "projects/pipeline-project-1/README.md",
+    "projects/warehouse-model-project",
+    "projects/pipeline-project-1",
+    "projects",
+    "professional-data-engineer/notes/README.md",
+    "professional-data-engineer/notes",
+    "professional-data-engineer/04-dbt-transformations.md",
+    "professional-data-engineer/03-nosql-and-storage.md",
+    "professional-data-engineer/02-orchestration.md",
+    "professional-data-engineer/01-advanced-pipelines.md",
+    "professional-data-engineer",
+    "data-engineer-python/notes/README.md",
+    "data-engineer-python/notes",
+    "data-engineer-python/04-automation.md",
+    "data-engineer-python/02-data-ingestion.md",
+    "data-engineer-python/01-python-foundations.md",
+    "data-engineer-python",
+    "associate-data-engineer-sql/notes",
+    "associate-data-engineer-sql",
+    "README.md",
+    "Structure.md",
     "Understanding data engineering/Chapter 2 Data Structure.md",
-    "Understanding data engineering/Chapter 1 What is Data Engineering?.md",
-    "Understanding data engineering"
+    "Pasted image 20260128003421.png",
+    "Pasted image 20260128003309.png",
+    "Pasted image 20260127232959.png.md"
   ]
 }
