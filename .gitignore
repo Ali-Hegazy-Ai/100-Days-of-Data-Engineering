@@ -10,6 +10,16 @@ Thumbs.db
 *.temp
 *~
 
+# Images (to prevent accidental upload of copyrighted images)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.svg
+*.ico
+
 # Python
 __pycache__/
 *.py[cod]
