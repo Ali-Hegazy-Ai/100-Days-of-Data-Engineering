@@ -5,7 +5,6 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue.svg)
-[![GitHub Streak](https://github-readme-streak-stats-gold-alpha.vercel.app?user=ali-hegazy-ai&theme=dark&border_radius=20)](https://git.io/streak-stats)
 
 This repository documents my 100 day learning journey into Data Engineering. It is both a personal study log and a public learning resource for anyone who wants to follow the same path or explore core data engineering concepts in a structured way. The material follows three DataCamp career tracks and includes daily notes, exercises, code samples, and small projects.
 
@@ -13,6 +12,7 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 
 ## Table of Contents
 
+- [Streak](#streak)
 - [DataCamp Tracks Used](#datacamp-tracks-used)
 - [Purpose](#purpose)
 - [What is in This Repository](#what-is-in-this-repository)
@@ -21,6 +21,17 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 - [Cloning This Repository](#cloning-this-repository)
 - [Contributing](#contributing)
 - [License](#license)
+
+---
+
+## Streak
+
+<p align="center">
+  <strong>🔥 Current GitHub Streak 🔥</strong><br>
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats-gold-alpha.vercel.app?user=ali-hegazy-ai&theme=dark&border_radius=20" alt="GitHub Streak" />
+  </a>
+</p>
 
 ---
 
