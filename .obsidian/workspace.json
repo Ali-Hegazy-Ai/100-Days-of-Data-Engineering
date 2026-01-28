@@ -11,14 +11,12 @@
             "id": "19e7537da4d6552a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "associate-data-engineer-sql/04-joining-data/Chapter 2.md",
-                "mode": "source",
-                "source": false
+                "file": "associate-data-engineer-sql/04-joining-data/Pasted image 20260128231014.png"
               },
-              "icon": "lucide-file",
-              "title": "Chapter 2"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260128231014"
             }
           }
         ]
@@ -187,9 +185,10 @@
   },
   "active": "19e7537da4d6552a",
   "lastOpenFiles": [
-    "associate-data-engineer-sql/04-joining-data/Pasted image 20260128231014.png",
     "associate-data-engineer-sql/04-joining-data/Chapter 2.md",
     "associate-data-engineer-sql/04-joining-data/Chapter 1.md",
+    "associate-data-engineer-sql/01-understanding-data-engineering/0086-big-data-pipeline-cheatsheet-for-aws-azure-and-gcp.png",
+    "associate-data-engineer-sql/04-joining-data/Pasted image 20260128231014.png",
     "associate-data-engineer-sql/04-joining-data/README.md",
     "associate-data-engineer-sql/03-intermediate-sql/README.md",
     "associate-data-engineer-sql/02-introduction-to-sql/README.md",
