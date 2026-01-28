@@ -123,7 +123,7 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 - [x] Understanding Data Engineering
 - [x] Introduction to SQL
 - [x] Intermediate SQL
-- [ ] Joining Data in SQL
+- [X] Joining Data in SQL
 - [ ] Database Design
 - [ ] Data Warehousing Concepts
 - [ ] Additional practice and notes
