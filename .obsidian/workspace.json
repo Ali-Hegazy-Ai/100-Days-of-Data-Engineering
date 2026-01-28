@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "associate-data-engineer-sql/01-understanding-data-engineering/README.md",
-                "mode": "preview",
+                "file": "associate-data-engineer-sql/04-joining-data/Chapter 2.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Chapter 2"
             }
           }
         ]
@@ -187,6 +187,16 @@
   },
   "active": "19e7537da4d6552a",
   "lastOpenFiles": [
+    "associate-data-engineer-sql/04-joining-data/Pasted image 20260128231014.png",
+    "associate-data-engineer-sql/04-joining-data/Chapter 2.md",
+    "associate-data-engineer-sql/04-joining-data/Chapter 1.md",
+    "associate-data-engineer-sql/04-joining-data/README.md",
+    "associate-data-engineer-sql/03-intermediate-sql/README.md",
+    "associate-data-engineer-sql/02-introduction-to-sql/README.md",
+    "progress_tracker.md",
+    "README.md",
+    "Pasted image 20260128231035.png",
+    "associate-data-engineer-sql/01-understanding-data-engineering/README.md",
     "associate-data-engineer-sql/notes/README.md",
     "associate-data-engineer-sql/05-database-design.md",
     "professional-data-engineer/04-dbt-transformations/README.md",
@@ -207,11 +217,7 @@
     "data-engineer-python/01-python-foundations",
     "associate-data-engineer-sql/05-database-design/README.md",
     "associate-data-engineer-sql/05-database-design",
-    "associate-data-engineer-sql/04-joining-data/README.md",
     "associate-data-engineer-sql/04-joining-data",
-    "associate-data-engineer-sql/03-intermediate-sql/README.md",
-    "associate-data-engineer-sql/02-introduction-to-sql/README.md",
-    "associate-data-engineer-sql/01-understanding-data-engineering/README.md",
     "associate-data-engineer-sql/Pasted image 20260128013212.png",
     "associate-data-engineer-sql/Pasted image 20260128005046.png",
     "associate-data-engineer-sql/Pasted image 20260128004622.png",
@@ -222,11 +228,6 @@
     "Apache Airflow.md",
     "associate-data-engineer-sql/02-introduction-to-sql.md",
     "data-engineer-python/03-etl-workflows.md",
-    "progress_tracker.md",
-    "resources/references.md",
-    "resources/links.md",
-    "projects/warehouse-model-project/README.md",
-    "projects/pipeline-project-1/README.md",
     "Pasted image 20260128003421.png",
     "Pasted image 20260128003309.png"
   ]

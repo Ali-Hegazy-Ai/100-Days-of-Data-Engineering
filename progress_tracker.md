@@ -6,15 +6,15 @@ This file tracks progress through the three DataCamp career tracks for the 100 D
 
 ## Associate Data Engineer in SQL
 
-| Status | Module |
-|--------|--------|
-| ⬜ | Understanding Data Engineering |
-| ⬜ | Introduction to SQL |
-| ⬜ | Intermediate SQL |
-| ⬜ | Joining Data in SQL |
-| ⬜ | Database Design |
-| ⬜ | Data Warehousing Concepts |
-| ⬜ | Additional practice and notes |
+| Status | Module                         |
+| ------ | ------------------------------ |
+| ⬜      | Understanding Data Engineering |
+| ⬜      | Introduction to SQL            |
+| ⬜      | Intermediate SQL               |
+| ⬜      | Joining Data in SQL            |
+| ⬜      | Database Design                |
+| ⬜      | Data Warehousing Concepts      |
+| ⬜      | Additional practice and notes  |
 
 ---
 
