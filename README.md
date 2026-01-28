@@ -57,30 +57,45 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 
 ---
 
-## Suggested Directory Structure
+## Directory Structure
 
 ```
 100-days-of-data-engineering/
 ├── README.md
+├── LICENSE
 ├── progress_tracker.md
 ├── associate-data-engineer-sql/
-│   ├── 01-understanding-data-engineering.md
-│   ├── 02-introduction-to-sql.md
-│   ├── 03-intermediate-sql.md
-│   ├── 04-joining-data.md
-│   ├── 05-database-design.md
+│   ├── 01-understanding-data-engineering/
+│   │   ├── README.md
+│   │   └── images/
+│   ├── 02-introduction-to-sql/
+│   │   └── README.md
+│   ├── 03-intermediate-sql/
+│   │   └── README.md
+│   ├── 04-joining-data/
+│   │   └── README.md
+│   ├── 05-database-design/
+│   │   └── README.md
 │   └── notes/
 ├── data-engineer-python/
-│   ├── 01-python-foundations.md
-│   ├── 02-data-ingestion.md
-│   ├── 03-etl-workflows.md
-│   ├── 04-automation.md
+│   ├── 01-python-foundations/
+│   │   └── README.md
+│   ├── 02-data-ingestion/
+│   │   └── README.md
+│   ├── 03-etl-workflows/
+│   │   └── README.md
+│   ├── 04-automation/
+│   │   └── README.md
 │   └── notes/
 ├── professional-data-engineer/
-│   ├── 01-advanced-pipelines.md
-│   ├── 02-orchestration.md
-│   ├── 03-nosql-and-storage.md
-│   ├── 04-dbt-transformations.md
+│   ├── 01-advanced-pipelines/
+│   │   └── README.md
+│   ├── 02-orchestration/
+│   │   └── README.md
+│   ├── 03-nosql-and-storage/
+│   │   └── README.md
+│   ├── 04-dbt-transformations/
+│   │   └── README.md
 │   └── notes/
 ├── projects/
 │   ├── pipeline-project-1/
