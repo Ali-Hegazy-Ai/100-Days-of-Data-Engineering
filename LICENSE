@@ -1,0 +1,196 @@
+MIT License
+
+Copyright (c) 2026 Ali Hegazy
+
+================================================================================
+                                FULL LICENSE TEXT
+================================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+                            DETAILED EXPLANATION
+================================================================================
+
+This section provides a plain-language explanation of the MIT License terms
+for educational purposes. This explanation is not part of the license itself
+and does not modify its terms.
+
+--------------------------------------------------------------------------------
+WHAT YOU CAN DO (RIGHTS GRANTED)
+--------------------------------------------------------------------------------
+
+1. USE
+   You may use this software for any purpose, whether personal, educational,
+   commercial, or any other lawful purpose. There are no restrictions on how
+   you use the software.
+
+2. COPY
+   You may make unlimited copies of this software. You can copy it to your
+   own computer, share it with friends, distribute it to colleagues, or
+   host it on any number of servers.
+
+3. MODIFY
+   You may modify, adapt, transform, or build upon this software in any way.
+   You can fix bugs, add new features, remove parts you don't need, or
+   completely rewrite portions of the code.
+
+4. MERGE
+   You may combine this software with other software, whether open source or
+   proprietary. You can incorporate this code into larger projects without
+   any licensing conflicts with the MIT License.
+
+5. PUBLISH
+   You may publish this software publicly, whether in its original form or
+   with your modifications. You can host it on websites, code repositories,
+   package managers, or any other distribution platform.
+
+6. DISTRIBUTE
+   You may distribute copies of this software to anyone, through any means.
+   You can include it in products you sell, share it freely online, or
+   bundle it with other software.
+
+7. SUBLICENSE
+   You may grant sublicenses to others, allowing them the same rights you
+   have. This enables you to include this software in products or projects
+   with their own licensing terms.
+
+8. SELL
+   You may sell copies of this software or products containing this software.
+   The MIT License places no restrictions on commercial use or monetization.
+
+--------------------------------------------------------------------------------
+CONDITIONS (WHAT YOU MUST DO)
+--------------------------------------------------------------------------------
+
+1. INCLUDE COPYRIGHT NOTICE
+   When you distribute this software (whether in source or binary form),
+   you must include the original copyright notice shown at the top of
+   this license file.
+
+2. INCLUDE LICENSE NOTICE
+   When you distribute this software, you must include this license text
+   (at minimum, the permission notice paragraph). This ensures that
+   recipients know their rights.
+
+3. APPLIES TO "SUBSTANTIAL PORTIONS"
+   The copyright and license notices must be included in all copies or
+   substantial portions of the Software. Minor code snippets may not
+   require full attribution, but significant use requires proper notice.
+
+--------------------------------------------------------------------------------
+DISCLAIMERS (WHAT THE AUTHORS ARE NOT RESPONSIBLE FOR)
+--------------------------------------------------------------------------------
+
+1. NO WARRANTY OF MERCHANTABILITY
+   The authors make no guarantee that this software is fit for any
+   particular commercial or non-commercial purpose.
+
+2. NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE
+   The authors do not warrant that this software will meet your specific
+   requirements or work correctly for your intended use case.
+
+3. NO WARRANTY AGAINST DEFECTS
+   The software is provided with potential bugs, errors, and imperfections.
+   The authors are not obligated to fix issues or provide support.
+
+4. NO LIABILITY FOR DAMAGES
+   The authors are not liable for any damages arising from the use of
+   this software, including but not limited to:
+   - Direct damages (loss of data, system failures)
+   - Indirect damages (lost profits, business interruption)
+   - Incidental damages (unexpected side effects)
+   - Consequential damages (downstream problems)
+   - Special damages (unique circumstances)
+
+5. USE AT YOUR OWN RISK
+   By using this software, you accept full responsibility for any
+   consequences. Test thoroughly before deploying in production
+   environments.
+
+--------------------------------------------------------------------------------
+ABOUT THIS REPOSITORY
+--------------------------------------------------------------------------------
+
+Repository:     100 Days of Data Engineering
+Author:         Ali Hegazy
+GitHub:         https://github.com/ali-hegazy-ai
+Year:           2026
+
+This repository contains educational materials, code samples, notes, and
+projects related to learning data engineering concepts over a 100-day period.
+
+CONTENT TYPES COVERED BY THIS LICENSE:
+- Markdown documentation and notes
+- SQL query examples and exercises
+- Python code and scripts
+- Configuration files
+- Project templates and examples
+- Study guides and reference materials
+
+THIRD-PARTY CONTENT:
+Any third-party content, libraries, or resources referenced in this repository
+may be subject to their own respective licenses. Users should review the
+licensing terms of any external dependencies before use.
+
+--------------------------------------------------------------------------------
+FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------------------------------------
+
+Q: Can I use this for a commercial project?
+A: Yes, the MIT License allows commercial use without restriction.
+
+Q: Do I need to credit the original author?
+A: Yes, you must include the copyright notice and license text when
+   distributing the software.
+
+Q: Can I modify the code without asking permission?
+A: Yes, you can modify the code freely. No permission is required.
+
+Q: Can I include this in proprietary software?
+A: Yes, MIT-licensed code can be included in proprietary projects.
+
+Q: Do I need to open-source my modifications?
+A: No, unlike some licenses, MIT does not require you to share your
+   modifications publicly.
+
+Q: Can I change the license for my modified version?
+A: You can add additional terms to your modifications, but you must
+   still include the original MIT License notice.
+
+Q: Is there any warranty or support?
+A: No, the software is provided "as is" with no warranty or support
+   obligations from the authors.
+
+Q: Can I remove the license from my copy?
+A: No, the license and copyright notices must be included in all copies
+   or substantial portions of the software.
+
+================================================================================
+                              CONTACT INFORMATION
+================================================================================
+
+For questions about this repository or its contents:
+
+GitHub:         https://github.com/ali-hegazy-ai
+Repository:     https://github.com/ali-hegazy-ai/100-days-of-data-engineering
+
+================================================================================
+                                   END OF LICENSE
+================================================================================

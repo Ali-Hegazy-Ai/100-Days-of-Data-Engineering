@@ -6,6 +6,8 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue.svg)
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=ali-hegazy-ai&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
 This repository documents my 100 day learning journey into Data Engineering. It is both a personal study log and a public learning resource for anyone who wants to follow the same path or explore core data engineering concepts in a structured way. The material follows three DataCamp career tracks and includes daily notes, exercises, code samples, and small projects.
 
 ---
