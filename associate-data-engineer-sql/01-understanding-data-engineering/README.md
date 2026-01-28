@@ -127,8 +127,6 @@ FROM employees
 WHERE role LIKE '%Data%';
 ```
 
-![SQL Query Example](sql-query-example.png)
-
 ---
 
 ## Database schemas
@@ -137,8 +135,6 @@ WHERE role LIKE '%Data%';
     
 - A schema defines table layout and relationships
     
-
-![Database Schema Example](database-schema-example.png)
 
 Learn more: [https://www.geeksforgeeks.org/dbms/database-schemas/](https://www.geeksforgeeks.org/dbms/database-schemas/)
 
