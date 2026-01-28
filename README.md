@@ -230,6 +230,8 @@ Contributions are welcome! If you would like to improve this repository:
 5. Push to the branch (`git push origin feature/improvement`)
 6. Open a Pull Request
 
+If you spot mistakes or issues that need fixing in GitHub Actions workflows, please open an issue or PR and include the workflow name, run link, and the change you recommend.
+
 ---
 
 ## License
