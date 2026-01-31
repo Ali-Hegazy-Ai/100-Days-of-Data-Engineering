@@ -15,6 +15,8 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 - [Streak](#streak)
 - [DataCamp Tracks Used](#datacamp-tracks-used)
 - [Purpose](#purpose)
+- [Quick Reference](#quick-reference)
+- [Suggested Main README Reframe](#suggested-main-readme-reframe)
 - [What is in This Repository](#what-is-in-this-repository)
 - [Progress Tracker](#progress-tracker)
 - [How to Use This Repository](#how-to-use-this-repository)
@@ -52,6 +54,24 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 - Provide a public, transparent resource that other learners can read, clone, or adapt.
 
 > **Note:** This is not a polished tutorial. It is a working log that records definitions, code, experiments, mistakes, and corrections as I move from fundamentals to more advanced workflows.
+
+---
+
+## Quick Reference
+
+- [Data Engineering Wiki Index](https://dataengineering.wiki/Index) – a broader index of data engineering topics to complement these notes.
+
+---
+
+## Suggested Main README Reframe
+
+If you want this README to be the main landing page, consider reframing it in this order:
+
+1. **Start Here:** short description of the journey and who it is for.
+2. **Learning Roadmap:** highlight the three tracks and the progress tracker.
+3. **Daily Workflow:** how to add notes, update progress, and store projects.
+4. **Resources:** link to the `resources` folder plus external references like the Data Engineering Wiki.
+5. **Community:** contributing and license details.
 
 ---
 
