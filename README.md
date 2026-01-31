@@ -60,6 +60,8 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 ## Quick Reference
 
 - [Data Engineering Wiki Index](https://dataengineering.wiki/Index) – a broader index of data engineering topics to complement these notes.
+- [Getting Started With Data Engineering](https://dataengineering.wiki/Guides/Getting+Started+With+Data+Engineering) – an introductory guide for new learners.
+- Additional resources: [links](resources/links.md) and [references](resources/references.md).
 
 ---
 
