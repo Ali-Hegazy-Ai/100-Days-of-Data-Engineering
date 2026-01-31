@@ -65,15 +65,7 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 
 ---
 
-## Suggested Main README Reframe
 
-If you want this README to be the main landing page, consider reframing it in this order:
-
-1. **Start Here:** short description of the journey and who it is for.
-2. **Learning Roadmap:** highlight the three tracks and the progress tracker.
-3. **Daily Workflow:** how to add notes, update progress, and store projects.
-4. **Resources:** link to the `resources` folder plus external references like the Data Engineering Wiki.
-5. **Community:** contributing and license details.
 
 ---
 
