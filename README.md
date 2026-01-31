@@ -12,21 +12,19 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 
 ## Table of Contents
 
-- [Streak](#streak)
-- [DataCamp Tracks Used](#datacamp-tracks-used)
-- [Purpose](#purpose)
-- [Quick Reference](#quick-reference)
-- [Suggested Main README Reframe](#suggested-main-readme-reframe)
-- [What is in This Repository](#what-is-in-this-repository)
-- [Progress Tracker](#progress-tracker)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Cloning This Repository](#cloning-this-repository)
-- [Contributing](#contributing)
-- [License](#license)
+- [Start Here](#start-here)
+- [Learning Roadmap](#learning-roadmap)
+- [Daily Workflow](#daily-workflow)
+- [Resources](#resources)
+- [Community](#community)
 
 ---
 
-## Streak
+## Start Here
+
+- A 100-day learning journey into Data Engineering following three DataCamp tracks.
+- Built as a personal study log for daily notes, exercises, and small projects.
+- Open for anyone who wants to follow the same roadmap or reuse the reference notes.
 
 <p align="center">
   <strong>🔥 Current GitHub Streak 🔥</strong><br>
@@ -37,7 +35,7 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 
 ---
 
-## DataCamp Tracks Used
+## Learning Roadmap
 
 | Track | Link |
 |-------|------|
@@ -45,100 +43,7 @@ This repository documents my 100 day learning journey into Data Engineering. It 
 | Data Engineer in Python | [View on DataCamp](https://app.datacamp.com/learn/career-tracks/data-engineer-in-python) |
 | Professional Data Engineer | [View on DataCamp](https://app.datacamp.com/learn/career-tracks/professional-data-engineer) |
 
----
-
-## Purpose
-
-- Record what I learn each day with notes and examples.
-- Convert course material into reusable reference notes and small projects.
-- Provide a public, transparent resource that other learners can read, clone, or adapt.
-
-> **Note:** This is not a polished tutorial. It is a working log that records definitions, code, experiments, mistakes, and corrections as I move from fundamentals to more advanced workflows.
-
----
-
-## Quick Reference
-
-- [Data Engineering Wiki Index](https://dataengineering.wiki/Index) – a broader index of data engineering topics to complement these notes.
-- [Getting Started With Data Engineering](https://dataengineering.wiki/Guides/Getting+Started+With+Data+Engineering) – an introductory guide for new learners.
-- Additional resources: [links](resources/links.md) and [references](resources/references.md).
-
----
-
-## Suggested Main README Reframe
-
-If you want this README to be the main landing page, consider reframing it in this order:
-
-1. **Start Here:** short description of the journey and who it is for.
-2. **Learning Roadmap:** highlight the three tracks and the progress tracker.
-3. **Daily Workflow:** how to add notes, update progress, and store projects.
-4. **Resources:** link to the `resources` folder plus external references like the Data Engineering Wiki.
-5. **Community:** contributing and license details.
-
----
-
-## What is in This Repository
-
-- Daily notes and study summaries in markdown
-- Concept explanations and terminology lists
-- SQL and Python practice files and snippets
-- Small project folders and example pipelines
-- References, links, and external resources
-- A progress tracker for the three DataCamp tracks
-
----
-
-## Directory Structure
-
-```
-100-days-of-data-engineering/
-├── README.md
-├── LICENSE
-├── progress_tracker.md
-├── associate-data-engineer-sql/
-│   ├── 01-understanding-data-engineering/
-│   │   ├── README.md
-│   │   └── images/
-│   ├── 02-introduction-to-sql/
-│   │   └── README.md
-│   ├── 03-intermediate-sql/
-│   │   └── README.md
-│   ├── 04-joining-data/
-│   │   └── README.md
-│   ├── 05-database-design/
-│   │   └── README.md
-│   └── notes/
-├── data-engineer-python/
-│   ├── 01-python-foundations/
-│   │   └── README.md
-│   ├── 02-data-ingestion/
-│   │   └── README.md
-│   ├── 03-etl-workflows/
-│   │   └── README.md
-│   ├── 04-automation/
-│   │   └── README.md
-│   └── notes/
-├── professional-data-engineer/
-│   ├── 01-advanced-pipelines/
-│   │   └── README.md
-│   ├── 02-orchestration/
-│   │   └── README.md
-│   ├── 03-nosql-and-storage/
-│   │   └── README.md
-│   ├── 04-dbt-transformations/
-│   │   └── README.md
-│   └── notes/
-├── projects/
-│   ├── pipeline-project-1/
-│   └── warehouse-model-project/
-└── resources/
-    ├── references.md
-    └── links.md
-```
-
----
-
-## Progress Tracker
+### Progress Tracker
 
 ### Associate Data Engineer in SQL
 
@@ -172,7 +77,7 @@ If you want this README to be the main landing page, consider reframing it in th
 
 ---
 
-## How to Use This Repository
+## Daily Workflow
 
 1. Open the folder that matches the track you are working on.
 2. Add a daily note for the current date.
@@ -182,7 +87,26 @@ If you want this README to be the main landing page, consider reframing it in th
 
 ---
 
-## Cloning This Repository
+## Resources
+
+- [Data Engineering Wiki Index](https://dataengineering.wiki/Index) – a broader index of data engineering topics to complement these notes.
+- [Getting Started With Data Engineering](https://dataengineering.wiki/Guides/Getting+Started+With+Data+Engineering) – an introductory guide for new learners.
+- Additional resources: [links](resources/links.md) and [references](resources/references.md).
+- Repository map:
+
+```
+100-days-of-data-engineering/
+├── README.md
+├── LICENSE
+├── progress_tracker.md
+├── associate-data-engineer-sql/
+├── data-engineer-python/
+├── professional-data-engineer/
+├── projects/
+└── resources/
+```
+
+### Cloning This Repository
 
 Anyone can clone this repository and use it locally. You will need Git installed and a terminal such as Command Prompt, PowerShell, Terminal, or bash.
 
@@ -241,7 +165,9 @@ git pull origin master
 
 ---
 
-## Contributing
+## Community
+
+### Contributing
 
 Contributions are welcome! If you would like to improve this repository:
 
@@ -256,7 +182,7 @@ If you spot mistakes or issues that need fixing in, please open an issue or PR a
 
 ---
 
-## License
+### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
