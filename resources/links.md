@@ -5,6 +5,8 @@
 - [Coursera](https://www.coursera.org/)
 - [Udemy](https://www.udemy.com/)
 - [Pluralsight](https://www.pluralsight.com/)
+- [Data Engineering Wiki - Index](https://dataengineering.wiki/Index)
+- [Data Engineering Wiki - Getting Started](https://dataengineering.wiki/Guides/Getting+Started+With+Data+Engineering)
 
 ## Community & Blogs
 - [Data Engineering Weekly](https://www.dataengineeringweekly.com/)
